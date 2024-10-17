@@ -1,0 +1,17 @@
+CGI
+====
+
+python -m venv venv
+
+venv\Scripts\activate
+
+where python
+
+C:\xampp\htdocs\CGI\venv\Scripts\python.exe
+copy and paste to first of every file
+
+<Directory "C:/xampp/htdocs/CGI">
+    Options +ExecCGI
+    AddHandler cgi-script .py
+    DirectoryIndex index.py
+</Directory>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD OPERATIONS</title>
+</head>
+<body>
+    
+         <h1>CRUD OPERATIONS</h1>
+         <hr>
+         <h2>CREATE </h2>
+         <form action="crud.py" method="post">
+            <input type="text" name="username" placeholder="username"><br>
+            <input type="password" name="password" placeholder="password" ><br>
+            <input type="submit" name="action" value="Create">
+         </form>
+
+         <hr>
+         <h2>READ </h2>
+         <form action="crud.py" method="post">
+            <input type="text" name="username" placeholder="username"><br>
+           
+            <input type="submit" name="action" value="Read">
+         </form>
+
+         <hr>
+         <h2>UPDATE </h2>
+         <form action="crud.py" method="post">
+            <input type="text" name="old_username" placeholder="old_username"><br>
+            <input type="text" name="new_username" placeholder="new_username"><br>
+            <input type="password" name="newpassword" placeholder="newpassword" ><br>
+            <input type="submit" name="action" value="Update">
+         </form>
+         <hr>
+         <h2>DELETE </h2>
+         <form action="crud.py" method="post">
+            <input type="text" name="username" placeholder="username"><br>
+            <input type="submit" name="action" value="Delete">
+         </form>
+
+
+</body>
+</html>
